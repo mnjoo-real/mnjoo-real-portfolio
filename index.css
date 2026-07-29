@@ -194,6 +194,7 @@ article {
 }
 
 .media-frame--video,
+.media-frame--slides,
 .media-frame--model {
     aspect-ratio: 16 / 9;
 }
