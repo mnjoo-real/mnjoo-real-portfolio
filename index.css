@@ -87,19 +87,14 @@ a {
     padding: 4rem 0 7rem;
 }
 
-.intro-container {
-    min-height: 45vh;
-    display: grid;
-    align-items: center;
-    font-size: clamp(2.2rem, 7vw, 5.5rem);
-    font-weight: 700;
-    line-height: 1.05;
-}
-
 main > header,
 main > section {
     padding: 2.5rem 0;
     border-top: 1px solid #d8d8d2;
+}
+
+main > header {
+    border-top: 0;
 }
 
 main > section {
@@ -284,10 +279,6 @@ article {
 
     .main-container {
         padding-top: 2rem;
-    }
-
-    .intro-container {
-        min-height: 35vh;
     }
 
     .media-frame--document,
